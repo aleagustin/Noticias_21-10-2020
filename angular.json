@@ -28,9 +28,18 @@
               "src/assets"
             ],
             "styles": [
+              
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
+
             ],
-            "scripts": []
+            "scripts": [
+              
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +132,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Noticias"
+    }
+  },
+  "defaultProject": "Noticias",
+  "cli": {
+    "analytics": "b53f2b30-9d57-4356-bf73-c161ec354111"
+  }
 }
